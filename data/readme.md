@@ -1,3 +1,5 @@
+## Descarga de datos
+
 El dataset utilizado en este proyecto está disponible públicamente en Kaggle:  
 [Transactional E-commerce Dataset](https://www.kaggle.com/datasets/bytadit/transactional-ecommerce)
 
