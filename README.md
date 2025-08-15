@@ -120,6 +120,7 @@ README.md           # Este archivo
   - Dashboard en Power BI con KPIs de clientes, ventas y recomendaciones.
 
 - Ejemplo de recomendaciones para un cliente:
+![Ejemplo de recomendaciones](images/recomendations_example.png)
 
 ## Autores
 - Antonio Andreu González – [email]
