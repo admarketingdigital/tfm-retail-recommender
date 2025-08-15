@@ -1,0 +1,10 @@
+python-telegram-bot[job-queue]==22.1
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+openai
+langchain
+langchain-openai
+annoy
+requests
