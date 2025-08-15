@@ -1,4 +1,4 @@
-# 🛍️ TFM Retail Recommender
+# TFM Retail Recommender
 
 **Trabajo Fin de Máster – Máster en Analítica de Datos en Marketing Digital (UAH – CEURA)**
 
