@@ -155,10 +155,10 @@ README.md           # Este archivo
 ![Ejemplo de recomendaciones](images/recomendations_example.png)
 
 ## Autores
-- Antonio Andreu González – [email]
-- Miguel Ángel Comino Matas – [email]
-- Dolores Manchado Miguel – [email]
-- Ana María Torres González – [email]
+- Antonio Andreu González 
+- Miguel Ángel Comino Matas 
+- Dolores Manchado Miguel 
+- Ana María Torres González 
 
 ## Licencia
 Este proyecto se distribuye bajo licencia MIT.
