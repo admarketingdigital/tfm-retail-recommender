@@ -106,8 +106,7 @@ DB_PASSWORD=...
 
 ### 4. Ejecutar scripts
 ```bash
-python src/etl_pipeline.py
-python src/train_recommender.py
+python src/main.py
 ```
 
 ## Estructura del repositorio
