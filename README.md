@@ -107,7 +107,26 @@ TELEGRAM_BOT_TOKEN_PRODUCTS_LLM=...
 TELEGRAM_BOT_TOKEN_PRODUCTS_CHATGPT=...
 ```
 
-### 4. Ejecutar scripts
+### 4. Ejecutar los Jupyter Notebooks en orden
+
+Para reproducir todo el pipeline del proyecto, es necesario ejecutar los notebooks en la carpeta /notebooks/ siguiendo este orden:
+
+- 01.Populate_Database.ipynb
+- 02.Auxiliary_Tables_Creation.ipynb
+- 03.Joining_Tables.ipynb
+- 04.EDA_SQL_PostgreSQL.ipynb
+- 05.Preprocessing.General.ipynb
+- 06.01.Clustering_construction.ipynb
+- 06.02.Clustering_pre_processing.ipynb
+- 06.03.Clustering_k_means.ipynb
+- 07.01.Recommendation_System_Products_KNN_Annoy.ipynb
+- 07.02.Recommendation_System_Clients_KNN_Annoy.ipynb
+- 07.03.Chatbot_Telegram_Annoy.ipynb
+- 08.TelegramGPT.ipynb
+
+Cada notebook construye sobre el anterior, por lo que deben ejecutarse en secuencia.
+
+### 5. Ejecutar scripts
 ```bash
 python src/main.py
 ```
