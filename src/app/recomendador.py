@@ -28,8 +28,8 @@ from telegram import InputMediaPhoto
 
 URL_IMAGEN_DEFAULT = "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg"
 
-# Inicializar el modelo LLM (GPT-4)
-llm = ChatOpenAI(model="gpt-4.1", temperature=0.5, openai_api_key=OPENAI_API_KEY)
+# Inicializar el modelo LLM (GPT-5)
+llm = ChatOpenAI(model="gpt-5", temperature=0.5, openai_api_key=OPENAI_API_KEY)
 
 # --- Cargar productos desde la base de datos
 query_productos = """
