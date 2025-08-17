@@ -546,6 +546,9 @@ async def recomendar_productos_similares_annoy_con_llm(producto_base, df_annoy, 
         # 6. Buscar productos similares con Annoy
         msg_temp = await update.message.reply_text("buscando productos similares, espere un momento...")
 
+        chat_id = update.effective_chat.id
+        estado = get_estado(chat_id)
+        estado["producto_base"] = producto_base
         producto_id = int(estado["producto_base"]["product_id"])
         nombre_base = estado["producto_base"]["productdisplayname"]
         idx_base = reverse_id_map.get(producto_id)
