@@ -1,0 +1,28 @@
+httpx==0.27.2
+
+# --- Core API ---
+fastapi>=0.110.0
+
+# --- Database ---
+psycopg2-binary>=2.9.9
+sqlalchemy>=2.0.25
+
+# --- Data science / ETL ---
+pandas>=2.2.0
+scikit-learn>=1.4.0
+annoy==1.17.3
+
+# --- Seguridad JWT / Auth ---
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.9
+
+# --- Configuración ---
+python-dotenv>=1.0.1
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# --- Tests ---
+httpx>=0.26.0   # para testear endpoints async
+
+mangum
