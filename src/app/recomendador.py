@@ -6,7 +6,7 @@ from sqlalchemy import text
 from app.db import engine
 #import app.estado
 from app.estado import get_estado
-from app.config import OPENAI_API_KEY
+from app.config import OPENAI_API_KEY, LLM_MODEL
 from langchain_openai import ChatOpenAI
 from app.utils import es_imagen_valida
 from app.responses import (
@@ -28,8 +28,8 @@ from telegram import InputMediaPhoto
 
 URL_IMAGEN_DEFAULT = "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg"
 
-# Inicializar el modelo LLM (GPT-5)
-llm = ChatOpenAI(model="gpt-5", temperature=0.5, openai_api_key=OPENAI_API_KEY)
+# Inicializar el modelo LLM
+llm = ChatOpenAI(model=LLM_MODEL, temperature=0.5, openai_api_key=OPENAI_API_KEY)
 
 # --- Cargar productos desde la base de datos
 query_productos = """
